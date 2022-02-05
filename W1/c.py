@@ -1,2 +1,2 @@
-s = str(input())
+s = input()
 print(s.lower(), end='')
