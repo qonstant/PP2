@@ -1,4 +1,3 @@
-import math
 def isPrime(number):
     for i in range(2, number//2):
         if number % i == 0:
