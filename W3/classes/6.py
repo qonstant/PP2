@@ -6,8 +6,6 @@ def isPrime(number):
     else:
         return True
 nums = list(map(int, input().split()))
-max = max(nums)
 for i in nums:
-    for j in range(2, i//2): 
-        nums = filter(lambda x: isPrime(x) == True, nums)
+    nums = filter(lambda x: isPrime(x) == True, nums)
 print(*nums)
